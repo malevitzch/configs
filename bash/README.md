@@ -4,7 +4,7 @@ By default, all modules are enabled, if you want to disable certain module, edit
 
 # installation
 To enable all currently used modules, add the following line to your .bashrc file (the .bashrc file should be located in your home directory):
-```
+```bash
 source <path-to-all.sh>
 ```
 where <path-to-all.sh> is replaced with the location of all.sh in your system.
