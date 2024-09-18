@@ -17,12 +17,12 @@ function rel_source() {
 
 function import_files() {
   for cur_file in "${module_files[@]}"; do
-    rel_source "$module_name/src/$cur_file"
+    rel_source "modules/$module_name/src/$cur_file"
   done
 }
 
 function import_module() {
-  rel_source "$1/$1.sh"
+  rel_source "modules/$1/$1.sh"
   import_files
 }
 
