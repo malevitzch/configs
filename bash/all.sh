@@ -3,4 +3,9 @@ function rel_source() {
   local base_dir="${BASH_SOURCE[0]%/*}"
   source "$base_dir/$path"
 }
-rel_source "./navigation/navigation.sh"
+
+function import_module() {
+  rel_source "./$1/$1.sh";
+}
+
+import_module "navigation"
