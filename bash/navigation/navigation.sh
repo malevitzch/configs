@@ -1,2 +1,3 @@
+module_name="navigation"
+module_files=("fastup.sh")
 
-rel_source "navigation/src/fastup.sh"
