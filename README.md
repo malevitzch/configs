@@ -3,5 +3,7 @@ This repo exists as a convenient storage for my configs for commonly-available l
 
 # todo:
 - add a guide to module file structure (bash)
+- git module (bash)
+- tmux module (bash)
 - add README for every bash module
 - possibly add a neovim config? not necessary though
