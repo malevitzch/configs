@@ -5,7 +5,7 @@ modules=("navigation" "files" "system")
 module_files=()
 
 # the module_name variable is used to generate paths for imports 
-module_name=() 
+module_name="" 
 
 # do not touch this one unless you know what you are doing
 project_path="${BASH_SOURCE[0]%/*}";
