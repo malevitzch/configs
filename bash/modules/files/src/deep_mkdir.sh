@@ -1,1 +1,1 @@
-alias mkdir='mkdir -pv'
+alias mkdir='mkdir -p'
