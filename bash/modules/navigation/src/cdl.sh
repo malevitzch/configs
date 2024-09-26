@@ -1,5 +1,5 @@
 function cdls() {
-  cd "$1"
+  cd "$@"
   ls
 }
 
