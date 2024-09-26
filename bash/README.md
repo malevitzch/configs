@@ -11,3 +11,7 @@ where <path-to-all.sh> is replaced with the location of all.sh in your system.
 
 # creating modules
 To create your own module, simply create a new folder with the module's name and put it in the modules folder. Inside, create a file called module-name.sh (where module-name is replaced with the actual name of the module) and an src folder. The main module file should contain two things: the module_name variable and an array of file names that are contained inside the src directory. Additionally, it is recommanded that the module's root directory contains a 'README.md' file that explains how all of its subfiles work and what aliases do they offer.
+
+# project todo-list
+- add documentation for files and system
+- rename bashstuff
