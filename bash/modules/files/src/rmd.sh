@@ -1,4 +1,4 @@
 function rmdir() {
-  rm -r "$1"
+  rm -r "$@"
 }
 alias 'rmd'='rmdir'
