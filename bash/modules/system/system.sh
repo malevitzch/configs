@@ -1,2 +1,2 @@
 module_name="system"
-module_files=("bashstuff")
+module_files=("bashr")
