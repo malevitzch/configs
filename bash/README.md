@@ -14,3 +14,6 @@ To create your own module, simply create a new folder with the module's name and
 
 # project todo-list
 - add documentation for files and system
+- tmux module
+- compiler module
+- git module
