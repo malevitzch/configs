@@ -1,2 +1,2 @@
 module_name="git"
-module_files=("gd")
+module_files=("gd" "gds" "gdt")
