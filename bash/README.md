@@ -15,4 +15,3 @@ To create your own module, simply create a new folder with the module's name and
 # project todo-list
 - tmux module
 - compiler module
-- git module
