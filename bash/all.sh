@@ -1,5 +1,5 @@
 # the modules variable contains a list of modules that all.sh imports
-modules=("navigation" "files" "system" "git")
+modules=("navigation" "files" "system" "git" "tmux")
 
 # the module_files variable is declare globally to be modified by every sourced module file
 module_files=()
