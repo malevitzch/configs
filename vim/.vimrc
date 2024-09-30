@@ -1,4 +1,4 @@
-let g:config_version = "1.0.1"
+let g:config_version = "1.0.2"
 
 " disable the vi compatibility mode just in case
 set nocompatible
@@ -6,7 +6,7 @@ set nocompatible
 " enable syntax highlighting and line numbers
 filetype on
 syntax on
-set number
+set number relativenumber
 
 " set tab width to 2 spaces and replace tab with spaces
 set tabstop=2
@@ -28,8 +28,10 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set mouse=a
 
 " set leader key to space
-noremap <Space> <Nop>
 map <Space> <Leader>
+
+" <Space>t keybind now toggles between relative and absolute line numbers
+nnoremap <Leader>t :set invrelativenumber<CR>
 
 " display config version on init
 autocmd VimEnter * echo "Config version: " . g:config_version
