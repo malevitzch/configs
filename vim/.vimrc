@@ -1,6 +1,9 @@
-let g:config_version = "1.0.0"
+let g:config_version = "1.0.1"
 
+" disable the vi compatibility mode just in case
 set nocompatible
+
+" enable syntax highlighting and line numbers
 filetype on
 syntax on
 set number
