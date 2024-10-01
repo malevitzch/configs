@@ -1,4 +1,4 @@
-let g:config_version = "1.0.5"
+let g:config_version = "1.0.6"
 
 " disable the vi compatibility mode just in case
 set nocompatible
@@ -41,8 +41,8 @@ nnoremap <Leader>t :set invrelativenumber<CR>
 nnoremap <Leader>v viw
 
 " - moves line down, _ moves the line up
-nnoremap - ddjP
-nnoremap _ ddkP
+nnoremap <Leader>- ddjP
+nnoremap <Leader>_ ddkP
 
 " maps the ctrl+d keybind to delete a line in insert mode
 imap <c-d> <esc>ddi
