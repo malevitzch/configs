@@ -1,4 +1,4 @@
-let g:config_version = "1.0.3"
+let g:config_version = "1.0.4"
 
 " disable the vi compatibility mode just in case
 set nocompatible
@@ -39,6 +39,11 @@ map <Space> <Leader>
 " <Space>t keybind now toggles between relative and absolute line numbers
 nnoremap <Leader>t :set invrelativenumber<CR>
 nnoremap <Leader>v viw
+
+" added keybinds to move lines up and down
+" - moves line down, _ moves the line up
+nnoremap - ddjP
+nnoremap _ ddkP
 
 " display config version on init
 autocmd VimEnter * echo "Config version: " . g:config_version
