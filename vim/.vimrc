@@ -1,7 +1,13 @@
-let g:config_version = "1.0.2"
+let g:config_version = "1.0.3"
 
 " disable the vi compatibility mode just in case
 set nocompatible
+
+" enable truecolor
+set termguicolors
+
+" color scheme changes
+highlight Visual guibg=#454545
 
 " enable syntax highlighting and line numbers
 filetype on
@@ -32,6 +38,7 @@ map <Space> <Leader>
 
 " <Space>t keybind now toggles between relative and absolute line numbers
 nnoremap <Leader>t :set invrelativenumber<CR>
+nnoremap <Leader>v viw
 
 " display config version on init
 autocmd VimEnter * echo "Config version: " . g:config_version
