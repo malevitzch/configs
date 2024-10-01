@@ -1,4 +1,4 @@
-let g:config_version = "1.0.6"
+let g:config_version = "1.1.0"
 
 " disable the vi compatibility mode just in case
 set nocompatible
@@ -50,3 +50,9 @@ imap <c-d> <esc>ddi
 
 " display config version on init
 autocmd VimEnter * echo "Config version: " . g:config_version
+
+" window resizing keybinds
+nnoremap <C-Up>    :resize +2<CR>
+nnoremap <C-Down>  :resize -2<CR>
+nnoremap <C-Left>  :vertical resize -2<CR>
+nnoremap <C-Right> :vertical resize +2<CR>
