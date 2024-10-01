@@ -34,7 +34,7 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set mouse=a
 
 " set leader key to space
-map <Space> <Leader>
+let mapleader="\<Space>"
 
 " <Space>t keybind now toggles between relative and absolute line numbers
 nnoremap <Leader>t :set invrelativenumber<CR>
