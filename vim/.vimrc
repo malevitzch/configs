@@ -14,6 +14,9 @@ filetype on
 syntax on
 set number relativenumber
 
+source ~/.colorscheme.vim
+"colorscheme tokyonight_ripoff
+
 " set tab width to 2 spaces and replace tab with spaces
 set tabstop=2
 set expandtab
