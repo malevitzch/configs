@@ -10,7 +10,7 @@ let g:colors_name = "tokyonight_ripoff"
 highlight clear
 
 " Basic UI elements
-highlight Normal        guifg=#008080 guibg=#1a1b26     " Default text
+highlight Normal        guifg=#c0caf5 guibg=#1a1b26     " Default text
 highlight Cursor        guifg=#000000 guibg=#FFFFFF     " Cursor color
 highlight LineNr        guifg=#3b4261 guibg=#1a1b26     " Line numbers
 highlight CursorLineNr  guifg=#FFFF00 guibg=#000000     " Current line number
