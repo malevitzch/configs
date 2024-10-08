@@ -1,4 +1,4 @@
-let g:config_version = "1.1.0"
+let g:config_version = "1.1.1"
 
 " disable the vi compatibility mode just in case
 set nocompatible
