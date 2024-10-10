@@ -1,0 +1,3 @@
+gitc() {
+  git commit -am "$@";
+}
