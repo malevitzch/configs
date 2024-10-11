@@ -1,6 +1,4 @@
-function cdls() {
+function cdl() {
   cd "$@"
   ls
 }
-
-alias 'cdl'='cdls'
