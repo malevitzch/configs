@@ -1,4 +1,3 @@
-function rmdir() {
+function rmd() {
   rm -r "$@"
 }
-alias 'rmd'='rmdir'
