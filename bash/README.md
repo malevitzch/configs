@@ -14,4 +14,4 @@ To create your own module, simply create a new folder with the module's name and
 
 # project todo-list
 - compiler module
-- add fast committing to git module
+- make gdt a full-fledged function which is a bit smarter than just running two commands and echoing the outputs.
