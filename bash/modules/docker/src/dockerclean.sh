@@ -1,0 +1,3 @@
+function dockerclean() {
+  docker compose down --rmi all --volumes --remove-orphans;
+}
