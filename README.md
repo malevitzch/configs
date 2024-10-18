@@ -4,5 +4,4 @@ Three main modules are currently available, vim, tmux, and bash
 
 # todo:
 - possibly add a neovim config? not necessary though
-- add basic information for tmux vim and bash in the main README.md
 - add installation scripts
