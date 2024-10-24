@@ -1,4 +1,4 @@
-let g:config_version = "1.1.1"
+let g:config_version = "1.1.2"
 
 " disable the vi compatibility mode just in case
 set nocompatible
@@ -19,7 +19,13 @@ source ~/.colorscheme.vim
 
 " set tab width to 2 spaces and replace tab with spaces
 set tabstop=2
+set shiftwidth=2
 set expandtab
+
+" add automatic indentation
+set smartindent
+" if indentation breaks on some weird language then just change to autoindent
+filetype indent on
 
 " some command bar and search settings
 set incsearch
