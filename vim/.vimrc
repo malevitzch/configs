@@ -58,7 +58,7 @@ imap <c-d> <esc>ddi
 
 
 " display config version on init
-autocmd VimEnter * echo "Config version: " . g:config_version
+autocmd VimEnter * redraw | echo "Config version: " . g:config_version
 
 " window resizing keybinds
 nnoremap <C-Up>    :resize +2<CR>
