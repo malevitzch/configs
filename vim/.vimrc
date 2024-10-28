@@ -1,4 +1,4 @@
-let g:config_version = "2.0.0"
+let g:config_version = "2.0.1"
 
 " disable the vi compatibility mode just in case
 set nocompatible
@@ -67,7 +67,8 @@ nnoremap <C-Left>  :vertical resize -2<CR>
 nnoremap <C-Right> :vertical resize +2<CR>
 
 " plugins
-call plug#begin('~/.vim/plugged')
+if ! empty(globpath(&rtp, 'autoload/plug.vim'))
+  call plug#begin('~/.vim/plugged')
 
-
-call plug#end()
+  call plug#end()
+endif
