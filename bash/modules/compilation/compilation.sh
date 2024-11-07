@@ -1,2 +1,2 @@
 module_name="compilation"
-module_files=("cpprun", "crun", "rustrun")
+module_files=("cpprun" "crun" "rustrun")
