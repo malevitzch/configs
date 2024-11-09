@@ -1,5 +1,4 @@
 crun() {
-  gcc -o exec "$@"
-  ./exec
-  rm exec
+  comprun cc "$@"
 }
+complete -f crun
