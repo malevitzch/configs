@@ -1,3 +1,5 @@
+# comprun 
+Main dependency for the compilation module, needs to be enabled for any of the other files to work.
 # cpprun
 A simple command to compile and run a c++ program. Usage: cpprun filename options. Also provides a cfrun command which works the same way but also colors the output green.
 # crun
