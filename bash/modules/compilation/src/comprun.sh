@@ -5,9 +5,6 @@ comprun() {
   fi
   shift
   g++ -o exec "$@" && ./exec
-  if [[ $? -eq 0 ]]; then 
-      rm exec
-      return 0
-  fi
+  rm -f exec
   return 1
 }
