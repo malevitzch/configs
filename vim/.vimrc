@@ -23,9 +23,7 @@ set shiftwidth=2
 set expandtab
 
 " add automatic indentation
-set smartindent
-" if indentation breaks on some weird language then just change to autoindent
-filetype indent on
+set autoindent
 
 " some command bar and search settings
 set incsearch
