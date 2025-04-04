@@ -3,5 +3,4 @@ This repo exists as a convenient storage for my configs for commonly-available l
 Three main modules are currently available, vim, tmux, and bash
 
 # todo:
-- possibly add a neovim config? not necessary though
 - add a vim plug installed checker
