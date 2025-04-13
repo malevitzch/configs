@@ -3,3 +3,6 @@ Makes mkdir use the -p option by default, automatically creates all the necessar
 
 # rmd
 Adds the alias 'rmd' for removing directories.
+
+# longlines
+Finds the lines that are longer than than 80 in the given file
