@@ -1,3 +1,3 @@
 function longlines() {
-  grep -n '^.\{81,\}' "$1"
+  grep -r -n '^.\{81,\}' "$@"
 }
