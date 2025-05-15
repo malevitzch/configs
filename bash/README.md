@@ -14,3 +14,5 @@ To create your own module, simply create a new folder with the module's name and
 
 # project todo-list
 - Add a command to reload .tmux.conf
+- Vim option to swap two patterns nicely
+- A fully configured nvim config that can be used for day-to-day stuff (especially needs lspconfig)
