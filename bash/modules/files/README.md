@@ -6,3 +6,6 @@ Adds the alias 'rmd' for removing directories.
 
 # longlines
 Finds the lines that are longer than than 80 in the file given as argument. Usage is 'longlines filename1 filename2 ...'. If no filenames are specified, the command recursively searches the directory. Directories may also be specified instead of filenames
+
+# lines
+Finds the number of lines in all files in the current directory recursively
