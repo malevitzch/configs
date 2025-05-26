@@ -1,2 +1,2 @@
 module_name="files"
-module_files=("deep_mkdir" "rmd" "longlines")
+module_files=("deep_mkdir" "rmd" "longlines" "lines")
