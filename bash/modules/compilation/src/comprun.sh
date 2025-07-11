@@ -4,7 +4,7 @@ comprun() {
     return 1
   fi
   shift
-  g++ -o exec "$@" && ./exec
-  rm -f exec
+  g++ -o _exec.tmp "$@" && ./_exec.tmp
+  rm -f _exec.tmp
   return 1
 }
