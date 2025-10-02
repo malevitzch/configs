@@ -1,3 +1,3 @@
 gittc() {
-  touch "$1" && git add "$1"
+  touch "$@" && git add "$1"
 }
